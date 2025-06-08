@@ -19,7 +19,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
   - *Morning flights* had the lowest average delays (**Departure: 5.24 min, Arrival: 4.10 min**).
   - *Evening flights* experienced the highest delays (**Departure: 18.7 min, Arrival: 16.9 min**).
 
-  ![Average Delay by Time of Day](plots/delay_by_time_of_day.png)
+  ![Average Delay by Time of Day](plots/delay_by_timeofday.png)
 
 - **Day of Week:**  
   - *Fridays* had the highest average delays (**Arrival: 13.30 min, Departure: 13.74 min**).
