@@ -82,15 +82,24 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 
 Top 5 most problematic routes by cancellation rate:
 
-<p align="center">
-| Route | Airline | Cancel % | Avg Delay (Dep/Arr) |
-|-------|---------|----------|----------------------|
-| BWI → EWR | ExpressJet | 30.56% | 35.2 / 31.8 min |
-| AZO → ORD | Skywest | 29.91% | 18.8 / 25.7 min |
-| DTW → EWR | Northwest | 26.83% | 33.4 / 44.9 min |
-| IAD → EWR | ExpressJet | 26.33% | 38.5 / 32.9 min |
-| ORF → EWR | ExpressJet | 25.70% | 42.4 / 40.9 min |
-</p>
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Route</th><th>Airline</th><th>Cancel %</th><th>Avg Delay (Dep/Arr)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>BWI → EWR</td><td>ExpressJet</td><td>30.56%</td><td>35.2 / 31.8 min</td></tr>
+    <tr><td>AZO → ORD</td><td>Skywest</td><td>29.91%</td><td>18.8 / 25.7 min</td></tr>
+    <tr><td>DTW → EWR</td><td>Northwest</td><td>26.83%</td><td>33.4 / 44.9 min</td></tr>
+    <tr><td>IAD → EWR</td><td>ExpressJet</td><td>26.33%</td><td>38.5 / 32.9 min</td></tr>
+    <tr><td>ORF → EWR</td><td>ExpressJet</td><td>25.70%</td><td>42.4 / 40.9 min</td></tr>
+  </tbody>
+</table>
+
+</div>
 
 > Common cause: NAS & Late Aircraft issues
 
