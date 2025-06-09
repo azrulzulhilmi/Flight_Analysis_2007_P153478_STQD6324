@@ -1,8 +1,8 @@
 # Airline On-Time Performance Analysis (2007)
 
-**Author:** Azrul Zulhilmi Ahmad Rosli  
+**Author:** Azrul Zulhilmi Ahmad Rosli | P153478
 **Course:** STQD6324 - Data Management (Semester 2 2024/2025)
-
+**Lecturer:** Dr Bernard
 ---
 
 ## Overview
