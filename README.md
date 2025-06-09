@@ -1,4 +1,4 @@
-# Airline On-Time Performance Analysis (2007)
+# ✈️ Airline On-Time Performance Analysis (2007)
 
 <p align="center">
   <img src="plots/airplane_header.png" alt="Airplane" width="80%">
@@ -11,15 +11,15 @@
 
 ---
 
-## Overview
+## 🛫 Overview
 
 This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Apache Hive on Hadoop and Python for data visualization. The goal is to uncover patterns in flight delays and cancellations, identify major contributing factors, and highlight problematic routes, airlines, and airports.
 
 ---
 
-## Key Findings
+## 📊 Key Insights
 
-### 1. Delay Patterns
+### 1. ⏱️ Delay Patterns
 
 - **Time of Day:**  
   - *Morning flights* had the lowest average delays (**Departure: 5.24 min, Arrival: 4.10 min**).
@@ -42,7 +42,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 
 ---
 
-### 2. Delay Factors
+### 2. ⛔ Delay Factors
 
 - **Late aircraft delays**: **38%** of total delay minutes.
 - **Carrier-related delays**: **28%**.
@@ -54,7 +54,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 
 ---
 
-### 3. Cancellations
+### 3. 🚫 Cancellations
 
 - **Main reasons:**  
   - *Carrier issues*: **22,606 cancellations**  
@@ -78,22 +78,25 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
   ![Cancellation Rate by Month](plots/cancel_by_month_dayofweek_combined.png)
 
 ---
+### 4. 🚨 High-Risk Routes
 
-### 4. Problematic Routes
+Top 5 most problematic routes by cancellation rate:
 
-- **Top 5 routes by cancellation rate:**
-  1. **BWI–EWR (Expressjet, Flight 2491):** *30.56%* cancelled, *Avg Delay*: Arrival 31.8 min, Departure 35.2 min
-  2. **AZO–ORD (Skywest, 6906):** *29.91%* cancelled, Arrival 25.7 min, Departure 18.8 min
-  3. **DTW–EWR (Northwest, 656):** *26.83%* cancelled, Arrival 44.9 min, Departure 33.4 min
-  4. **IAD–EWR (Expressjet, 1280):** *26.33%* cancelled, Arrival 32.9 min, Departure 38.5 min
-  5. **ORF–EWR (Expressjet, 2970):** *25.70%* cancelled, Arrival 40.9 min, Departure 42.4 min
+<p align="center">
+| Route     | Airline    | Cancel % | Avg Delay (Dep/Arr) |
+| --------- | ---------- | -------- | ------------------- |
+| BWI → EWR | Expressjet | 30.6%    | 35.2 / 31.8 min     |
+| AZO → ORD | Skywest    | 29.9%    | 18.8 / 25.7 min     |
+| DTW → EWR | Northwest  | 26.8%    | 33.4 / 44.9 min     |
+| IAD → EWR | Expressjet | 26.3%    | 38.5 / 32.9 min     |
+| ORF → EWR | Expressjet | 25.7%    | 42.4 / 40.9 min     |
+</p>
 
-- **Main delay reasons:**  
-  - *NAS (airspace congestion)* and *Late Aircraft* delays were the most frequent causes.
+> Common cause: NAS & Late Aircraft issues
 
 ---
 
-## Methodology
+## 🔍 Methodology
 
 - **Data Processing:** Apache Hive SQL on Hadoop (via Ambari)
 - **Visualization & Analysis:** Python (Pandas, Seaborn, Matplotlib)
@@ -101,7 +104,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 
 ---
 
-## Recommendations
+## ✅ Recommendations
 
 - **Fly in the morning or midweek** for best on-time performance.
 - **Avoid peak months** (June, December) and high-cancellation routes.
@@ -109,11 +112,11 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 
 ---
 
-For more plots and visualizations, please see the [plots folder](./plots).
+📂For more plots and visualizations, please see the [plots folder](./plots).
 
 ---
 
-## Author 
+## 👨‍🎓 Author 
 
 **Author:** Azrul Zulhilmi Ahmad Rosli | P153478
 **Course:** STQD6324 - Data Management (Semester 2 2024/2025)
