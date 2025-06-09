@@ -108,6 +108,6 @@ For more plots and visualizations, please see the [plots folder](./plots).
 
 ## License
 
-This project is for academic purposes. Data source: [Kaggle - Airline On-Time Data](https://www.kaggle.com/datasets/giovamata/airline-on-time-performance-data-2007).
+This project is for academic purposes. Data source: [Kaggle - Airline On-Time Data](https://www.kaggle.com/datasets/wenxingdi/data-expo-2009-airline-on-time-data/data?select=1993.csv).
 
 ---
