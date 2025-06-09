@@ -69,7 +69,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 - **By month:**  
   - *February* had the highest cancellation rate (**1.27%**), *May* the lowest (**0.26%**).
 
-  ![Cancellation Rate by Month](plots/cancel_by_month_day_of_week_combined.png)
+  ![Cancellation Rate by Month](plots/cancel_by_month_dayofweek_combined.png)
 
 ---
 
