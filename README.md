@@ -1,8 +1,9 @@
 # Airline On-Time Performance Analysis (2007)
 
-**Author:** Azrul Zulhilmi Ahmad Rosli | P153478
-**Course:** STQD6324 - Data Management (Semester 2 2024/2025)
-**Lecturer:** Dr Bernard
+<p align="center">
+  <img src="plots/airplane_header.png" alt="Airplane" width="50%">
+</p>
+
 ---
 
 ## Overview
@@ -105,6 +106,13 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 
 For more plots and visualizations, please see the [plots folder](./plots).
 
+---
+
+## Author 
+
+**Author:** Azrul Zulhilmi Ahmad Rosli | P153478
+**Course:** STQD6324 - Data Management (Semester 2 2024/2025)
+**Lecturer:** Dr Bernard
 
 ## License
 
