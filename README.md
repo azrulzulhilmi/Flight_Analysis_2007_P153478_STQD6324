@@ -25,14 +25,14 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
   - *Fridays* had the highest average delays (**Arrival: 13.30 min, Departure: 13.74 min**).
   - *Tuesdays* were most punctual (**Arrival: 8.41 min, Departure: 9.48 min**).
 
-  ![Average Delay by Day of Week](plots/delay_by_day_of_week.png)
+  ![Average Delay by Day of Week](plots/delay_by_dayofweek_combined.png)
 
 - **Month/Season:**  
   - *June and December* had the highest delays (over **15 min**).
   - *May and September* had the lowest delays (**~7–8 min**).
   - *Summer* was the worst season (**Arrival: 14.43 min, Departure: 15.00 min**), while *Autumn* was the best (**Arrival: 5.10 min, Departure: 7.23 min**).
 
-  ![Average Delay by Month](plots/delay_by_month.png)
+  ![Average Delay by Month](plots/delay_by_month_seasonal.png)
 
 ---
 
@@ -44,7 +44,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 - **Weather**: **5.7%**.
 - **Security**: **<0.2%**.
 
-  ![Delay Reasons Breakdown](plots/delay_reasons_pie.png)
+  ![Delay Reasons Breakdown](plots/delay_factors_combined.png)
 
 ---
 
@@ -60,7 +60,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
   - *Mesa Airlines* had the highest cancellation rate (**3.72%**).
   - *JetBlue* and *Aloha Airlines* had the lowest (**0.23%** and **0.21%**).
 
-  ![Cancellation Rate by Airline](plots/cancellation_by_airline.png)
+  ![Cancellation Rate by Airline](plots/cancel_by_airline_top10_with_total_flights.png)
 
 - **By airport:**  
   - *Telluride Regional* had the highest origin cancellation rate (**14.81%**).
@@ -69,7 +69,7 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 - **By month:**  
   - *February* had the highest cancellation rate (**1.27%**), *May* the lowest (**0.26%**).
 
-  ![Cancellation Rate by Month](plots/cancellation_by_month.png)
+  ![Cancellation Rate by Month](plots/cancel_by_month_day_of_week_combined.png)
 
 ---
 
@@ -102,6 +102,9 @@ This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Ap
 - **Airlines and airports** should focus on reducing late aircraft and carrier-related delays, and improve scheduling on problematic routes.
 
 ---
+
+For more plots and visualizations, please see the [plots folder](./plots).
+
 
 ## License
 
