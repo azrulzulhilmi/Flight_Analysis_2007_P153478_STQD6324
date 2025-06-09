@@ -1,7 +1,7 @@
 # Airline On-Time Performance Analysis (2007)
 
 <p align="center">
-  <img src="plots/airplane_header.png" alt="Airplane" width="50%">
+  <img src="plots/airplane_header.png" alt="Airplane" width="80%">
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)  
