@@ -13,7 +13,7 @@
 
 ## 🛫 Overview
 
-This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Apache Hive on Hadoop and Python for data visualization. The goal is to uncover patterns in flight delays and cancellations, identify major contributing factors, and highlight problematic routes, airlines, and airports.
+This project analyzes the 2007 U.S. Airline On-Time Performance dataset using Apache Hive and SQL on Hadoop, and Python for data visualization. The goal is to uncover patterns in flight delays and cancellations, identify major contributing factors, and highlight problematic routes, airlines, and airports.
 
 ---
 
